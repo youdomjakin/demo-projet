@@ -23,10 +23,10 @@ spec:
         - name: MONGO_INITDB_ROOT_USERNAME
           valuerFrom:
             secretKeyRef:
-              name: mongo-secret
+              name: mongodb-secret
               ket: mongo-root-username
         - name: MONGO_INITDB_ROOT_PASSWORD
           valuerFrom:
             secretKeyRef:
-              name: mongo-secret
+              name: mongodb-secret
               ket: mongo-root-password
