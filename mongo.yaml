@@ -42,3 +42,10 @@ spec:
     - protocol: TCP
       port: 27017
       targetPort: 27017
+---
+kind: Namespace
+apiVersion: v1
+metadata:
+  name: testnamespace
+  labels:
+    name: testnamespace
